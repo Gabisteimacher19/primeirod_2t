@@ -36,7 +36,7 @@ h1 {
 }
 .menuPrincipal {
   position: absolute;
-  background: #000000;
+  background: #f3ecec;
   color: rgb(13, 0, 128);
   width: 200px;
   height: 200px;
@@ -63,4 +63,20 @@ li a {
 li a:hover {
   background: coral;
   color: aqua;
+}
+#fenix {
+  width: 20%;
+}
+.caixaFenix {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 40%;
+  height: 150px;
+  background: coral;
+  margin: 20px;
+  border-color: rgb(218, 75, 23);
+  border-width: 150px;
+  border-style: solid;
+  padding: 20px;
 }
