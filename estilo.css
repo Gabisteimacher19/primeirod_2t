@@ -41,6 +41,8 @@ h1 {
   width: 200px;
   height: 200px;
   top: 0;
+  left: 0;
+  
 
 }
 nav ul {
@@ -61,11 +63,11 @@ li a {
   font-family: 'Courier New', Courier, monospace;
 }
 li a:hover {
-  background: coral;
+  background: rgb(104, 50, 190);
   color: aqua;
 }
 #fenix {
-  width: 20%;
+  width: 50%;
 }
 .caixaFenix {
   position: absolute;
@@ -79,4 +81,6 @@ li a:hover {
   border-width: 150px;
   border-style: solid;
   padding: 20px;
+  display: flex;
+  justify-content: center;
 }
