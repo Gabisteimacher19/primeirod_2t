@@ -4,35 +4,55 @@ body{
 h1 {
   text-align: center;
 }
-.Caixa1 {
+.caixa1 {
   position: absolute;
-  background: #336666;
-  color: red;
-  width: 200px;
-  height: 200px;
-  left: 86%;
+  background: orange;
+  color: #FFFFFF;
+  width: 40px;
+  height: 40px;
   right: 0;
   top: 0;
 }
-.Caixa2 {
+
+.caixa2 {
   position: absolute;
-  background: #000000;
-  color: blue;
-  width: 200px;
-  height: 200px;
-  left: 71%;
-  right: 0;
+  background: green;
+  color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  right: 44px;
   top: 0;
 }
+
 .caixa3 {
   position: absolute;
-  background: #000052;
-  color: purple;
-  width: 200px;
-  height: 200px;
-  left: 47%;
-  right: 0;
-  top: 0;
+  background: green;
+  color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  right: 0px;
+  top: 44px;
+}
+
+.caixa4 {
+position: absolute;
+background: orange;
+color: #FFFFFF;
+width: 40px;
+height: 40px;
+right: 44px;
+top: 44px;
+}
+
+.caixa5 {
+position: absolute;
+background: rgb(0, 0, 0);
+color: #FFFFFF;
+width: 40px;
+height: 40px;
+right: 22px;
+top: 22px;
+
 }
 .menuPrincipal {
   position: absolute;
@@ -58,7 +78,7 @@ li {
 }
 li a {
   display: block;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16x;
   text-decoration: none;
@@ -69,20 +89,47 @@ li a:hover {
   color: aqua;
 }
 #fenix {
-  width: 50%;
+  width: 20%;
 }
+#aviao:hover{
+  width: 22%;
+} 
 .caixaFenix {
   position: absolute;
   top: 50px;
   left: 0;
-  width: 40%;
+  width: 90%;
   height: 150px;
   background: coral;
   margin: 20px;
   border-color: rgb(218, 75, 23);
-  border-width: 150px;
+  border-width: 20px;
   border-style: solid;
   padding: 20px;
   display: flex;
   justify-content: center;
+}
+.rodape {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#copy {
+  position: relative;
+  bottom: 0;
+  border-radius: 30px;
+  background: black;
+  color: burlywood;
+  width: 80%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+.conteudo {
+  position: absolute;
+  top: 45px;
+  width: 95%;
+  padding: 5px;
 }
