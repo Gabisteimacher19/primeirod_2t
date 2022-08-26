@@ -1,5 +1,5 @@
 body{
-  background: rgb(240, 240, 245);
+  background: rgb(128, 128, 134);
 }
 h1 {
   text-align: center;
@@ -67,32 +67,45 @@ li a:hover {
   background: rgb(104, 50, 190);
   color: aqua;
 }
-#fenix {
-  width: 20%;
+#personagens {
+  width: 50%;
 }
-#fenix:hover{
-  width: 22%;
+#personagens:hover{
+  width: 40%;
 } 
-.caixaFenix {
+.caixaPersonagens {
   position: absolute;
   top: 50px;
   left: 0;
   width: 90%;
   height: 150px;
-  background: coral;
+  background: rgb(219, 0, 0);
   margin: 20px;
-  border-color: rgb(218, 75, 23);
+  border-color: rgb(10, 4, 1);
   border-width: 20px;
   border-style: solid;
   padding: 20px;
   display: flex;
   justify-content: center;
 }
-.rodape {
+#rodape {
   position: relative;
-  height: 50px;
+  bottom: 0;
+  border-radius: 25px;
+  width: 50%;
+  height: 30px;
+  background: #0f0c06;
+  color:#c90e0e;
   display: flex;
   justify-content: center;
+  font-size: 26px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.capaRodape {
+  position: relative;
+  width: 100%;
+  display: flex;
+   justify-content: center;
 }
 .conteudo {
   position: absolute;
